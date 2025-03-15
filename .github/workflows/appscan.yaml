@@ -1,6 +1,6 @@
 name: "HCL AppScan CodeSweep"
 on:
-  pull_request:
+  push:
     types: [opened,synchronize]
 jobs:
   scan:
